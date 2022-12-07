@@ -6,7 +6,7 @@ def weight_average(my_list=[]):
     m = 0
     n = 0
 
-    for tup in my_list:
+    for p in my_list:
         m += p[0] * p[1]
         n += p[1]
 
